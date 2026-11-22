@@ -1,0 +1,12 @@
+# caches de bytecode e pytest
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# artefatos gerados pelo scanner (CSV/JSON de saída)
+*.csv
+*.json
+
+# diretórios de build/dist só se surgirem
+build/
+dist/
